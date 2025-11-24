@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>휴일의 방</title>
+    <style>
+
+        @font-face {
+            font-family: 'KimJeongcheolMyoungjo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Light.woff2') format('woff2');
+            font-weight: 300;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'KimJeongcheolMyoungjo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'KimJeongcheolMyoungjo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-display: swap;
+        }
+
+
+        body {
+            font-family: 'KimJeongcheolMyoungjo', serif;
+            font-weight: 400;
+            margin: 50px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: 700;
+        }
+
+        h2 {
+            font-weight: 500;
+        }
+
+        p {
+            font-weight: 300;
+            line-height: 2;
+        }
+
+
+        p.light {
+            font-weight: 300;
+        }
+
+        h2.light {
+            font-weight: 10;
+        }
+
+        p.color {
+            color: grey;
+        }
+
+        p.small {
+            font-size: 12px;
+        }
+
+
+        .highlight1 {
+      color: white;
+      background-color: black;
+      font-size: 50px;
+      display: inline;
+      padding: 6px 6px;
+    }
+
+        .highlight2 {
+      color: white;
+      background-color: grey;
+      display: inline;
+      padding: 4px 4px;
+    }
+
+
+h1, p {
+  margin: 0; 
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+
+
+section {padding-bottom: 80px}
+
+.photo-frame {
+  padding: 15px;
+  background: white;
+  border: 0.7px solid;
+  color: grey;
+  width: fit-content;
+  margin: auto;
+}
+
+.photo-frame img {
+  display: block;
+}
+
+.sticker {
+  position: absolute;
+  transform-origin: center;
+}
+
+.cloud1 {
+  width: 250px;
+  left: 25%;
+  top: 60%;
+}
+
+
+.cloud2 {
+  width: 170px;
+  left: 70%;
+  top: 38%;          
+}
+
+.cloud3 {
+  width: 300px;
+  left: 60%;
+  top: 27%;          
+}
+
+.grey {
+    color: grey;
+    font-weight: 300;
+}
+
+.bg1 {
+  background-image: url('songsback.png');
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 450px;
+}
+
+.bg2 {
+    background-image: url('clgback.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    </style>
+
+
+</head>
+<body>
+
+<section>
+    <p class="light color small"> 좋아해줘-검정치마 中... </p>
+    <h1 class="highlight1">오빠 날 잡아 줘, 날 감싸 안아 줘</h1>
+    <h2 class="light"> 감정을 가장 솔직한 언어로 표현하다, 검정치마 </h2>
+</section>
+
+<section>
+    <div class="photo-frame">
+   <img src="https://i.pinimg.com/1200x/1a/bd/6e/1abd6e1bec942d9c2d851ab4769ea016.jpg" width="450">
+   <img src="cloud1.png" alt="cloud" class="sticker cloud1">
+   <img src="cloud2.png" alt="cloud" class="sticker cloud2">
+   <img src="cloud3.png" alt="cloud" class="sticker cloud3">
+</div>
+</section>
+
+<section>
+    <h2>
+  <span class="grey">‘조휴일’ ‘조홍철’ ‘Bryan Cho’ ‘The Black Skirts’</span><br>
+  검정치마 <span class="grey">그는 누구인가?</span>
+</h2>
+</section>
+
+<section>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>검정치마는 낯섦과 이방성에서 출발한 아티스트이다.</p>
+    <p>그는 미국이라는 낯선 환경 속에서 사랑과 관계를 바라보는 섬세한 음악가로 자라났다.</p>
+    <p>타지에서의 묘한 외로움은 그의 감각을 예민하게 만들었고,</p>
+    <p>그는 그 감각으로 다채로운 관계들을 노래한다.</p>
+    <p>검정치마 음악의 가장 큰 매력은 순수한 감정(사랑·쓸쓸함)위에</p>
+    <p>능청스럽고 솔직한 섹슈얼리티를 자연스럽게 얹는 방식이다.</p>
+    <p>노골적이고 직설적인 표현도 주저하지 않지만,</p>
+    <p>그 모든 표현의 핵심에는 누군가에게 안기고 싶은 사랑의 갈망이 자리한다.</p>
+    <p>그래서 그의 음악은</p>
+    <p class="highlight2">솔직해서 더 매력적이고, 노골적이라 더 예술적이다.</p>
+    <p>그는 사랑의 못난 면을 숨기지 않음으로써</p>
+    <p>다른 인디 밴드와 결을 달리한다.</p>
+</section>
+
+<section class="bg1">
+
+<br><br><br>
+
+<p>< 201 ></p>
+    <p>좋아해줘</p>
+    <p>Stand Still</p>
+    <p>강아지</p>
+    <p>상아</p>
+    <p>Antifreeze</p>
+    <p>Tangled</p>
+    <p>Avant Garde Kim</p>
+    <p>Le Fou Muet</p>
+    <p>Dientes</p>
+    <p>Kiss and tell</p>
+    <p>Stand Still ('07 Korean Ver.) (Bonus Track)</p>
+    <p>Fling; Fig From France (Bonus Track)</p>
+    <p>I Like Watching You Go (Bonus Track)</p>
+
+
+<p>< Don’t You Worry Baby ></p>
+    <p>이별노래</p>
+    <p>무임승차</p>
+    <p>Love Shine</p>
+    <p>외아들</p>
+    <p>International Love Song</p>
+    <p>날씨</p>
+    <p>아침식사</p>
+    <p>음악하는 여자</p>
+    <p>젊은 우리 사랑</p>
+    <p>Ariel</p>
+    <p>기사도</p>
+    <p>앵무새</p>
+
+<p>< Team Baby ></p>
+    <p>난 아니에요</p>
+    <p>Big Love</p>
+    <p>Diamond</p>
+    <p>Love is All</p>
+    <p>내 고향 서울엔</p>
+    <p>폭죽과 풍선들</p>
+    <p>한시 오분 (1:05)</p>
+    <p>나랑 아니면</p>
+    <p>혜야</p>
+    <p>EVERYTHING</p>
+
+
+<p>< Thirsty ></p>
+    <p>틀린질문</p>
+    <p>Lester Burnham</p>
+    <p>섬 (Queen of Diamonds)</p>
+    <p>상수역</p>
+    <p>광견일기</p>
+    <p>Bollywood</p>
+    <p>빨간 나를</p>
+    <p>Put Me On Drugs</p>
+    <p>하와이 검은 모래</p>
+    <p>맑고 묽게</p>
+    <p>그늘은 그림자로</p>
+    <p>피와 갈증 (King of Hurts)</p>
+
+
+<p>< Teen Troubles ></p>
+    <p>Flying Bobs</p>
+    <p>Baptized In Fire (불세례)</p>
+    <p>어린양 (My Little Lambs)</p>
+    <p>Sunday Girl</p>
+    <p>Friends In Bed</p>
+    <p>Cicadas (매미들)</p>
+    <p>Follow You (따라갈래)</p>
+    <p>Jersey Girl</p>
+    <p>Love You The Same</p>
+    <p>Powder Blue</p>
+    <p>Electra</p>
+    <p>Min (미는 남자)</p>
+    <p>Jeff & Alana</p>
+    <p>Ling Ling</p>
+    <p>John Fry</p>
+    <p>99%</p>
+    <p>Our Own Summer</p>
+   
+</section>
+
+<section class="bg2">
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <h2>정규 앨범 65곡,</h2>
+    <h2>사랑과 욕망, 솔직함을 탐구하는 기록들</h2>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    
+</section>
+
+<section>
+    <p>검정치마는 가사를 통해 솔직한 감정의 끝단을 표현한다.</p>
+    <p>그 과정에서 일부 가사는 외설적이라 느껴질 수도 있지만,</p>
+    <p>예술적 표현으로서 의미를 갖는다.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>각 곡에서 드러나는 솔직함의 순간들을 직접 읽어보면, 그 의미를 더 분명히 느낄 수 있다.</p>
+</section>
+
+<section></section>
+
+<section>
+    <p>검정치마의 외설적인 가사는 단순한 자극이나 노골성에 머물지 않는다.</p>
+    <p>드러난 문장 사이로는 사랑을 갈망하고, 실패하고, 다시 욕망하는 인간의 본능적 정서가 은밀하게 스며 있다.</p>
+    <p>몸의 언어로 포장된 감정들은 순간의 욕망처럼 보이지만,</p>
+    <p>그 밑바닥에는 이해받고자 하는 마음, 관계의 균열을 붙잡으려는 애착,</p>
+    <p>스스로도 정의하기 어려운 고독이 흐릿한 잔상처럼 남아 있다.</p>
+    <br><br><br>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+</section>
+
+<section>
+    <img src="https://i.pinimg.com/736x/34/26/b4/3426b4883373b42eea0efd749129458a.jpg" width="500">
+</section>
+
+</body>
+</html>
