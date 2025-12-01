@@ -164,6 +164,49 @@ section {padding-bottom: 80px}
     background-size: 1000px;
 }
 
+.bg3 {
+    position: relative;
+    width: 100vw;          
+    height: 100vh;        
+    overflow: hidden;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg3::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffffff, #454545);
+    z-index: -1;           
+}
+
+.bg3 .bg-img {
+    width: 100%;          
+    height: 100%;
+    object-fit: cover;     
+    position: relative;
+    z-index: 0;
+}
+
+section.grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px; 
+        width: 100%;
+        max-width: 450px; 
+        margin: 0 auto;
+    }
+
+    section.grid img {
+        width: 100%;
+        display: block;
+        border-radius: 6px;
+        cursor: pointer;
+    }
     </style>
 
 
@@ -311,7 +354,24 @@ section {padding-bottom: 80px}
     <p>각 곡에서 드러나는 솔직함의 순간들을 직접 읽어보면, 그 의미를 더 분명히 느낄 수 있다.</p>
 </section>
 
-<section></section>
+<section>
+    <h2>Click!</h2>
+</section>
+
+<section class="grid">
+    <a href="page1.html" class="item"><img src="B1.png" alt="B1"></a>
+    <a href="page2.html" class="item"><img src="B2.png" alt="B2"></a>
+    <a href="page3.html" class="item"><img src="B3.png" alt="B3"></a>
+    <a href="page4.html" class="item"><img src="B4.png" alt="B4"></a>
+    <a href="page5.html" class="item"><img src="B5.png" alt="B5"></a>
+    <a href="page6.html" class="item"><img src="B6.png" alt="B6"></a>
+    <a href="page7.html" class="item"><img src="B7.png" alt="B7"></a>
+    <a href="page8.html" class="item"><img src="B8.png" alt="B8"></a>
+    <a href="page9.html" class="item"><img src="B9.png" alt="B9"></a>
+    <a href="page10.html" class="item"><img src="B10.png" alt="B10"></a>
+    <a href="page11.html" class="item"><img src="B11.png" alt="B11"></a>
+    <a href="page12.html" class="item"><img src="B12.png" alt="B12"></a>
+</section>
 
 <section>
     <p>검정치마의 외설적인 가사는 단순한 자극이나 노골성에 머물지 않는다.</p>
@@ -325,7 +385,8 @@ section {padding-bottom: 80px}
     <p>.</p>
 </section>
 
-<section>
+<section class="bg3">
+
     <img src="https://i.pinimg.com/736x/34/26/b4/3426b4883373b42eea0efd749129458a.jpg" width="500">
 </section>
 
